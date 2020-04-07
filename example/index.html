@@ -4,7 +4,7 @@
     </head>
     <body>
             <div class="server-status">
-     <span class="server-online"></span>
+     <span class="status"></span>
     </div>
     <script>
       MinecraftAPI.getServerStatus('95.214.8.98', {
@@ -13,9 +13,7 @@
         if (err) {
           return document.querySelector('.server-status').innerHTML = 'Error loading status';
         }
-
-        // you can change these to your own message!
-        document.querySelector('.server-online').innerHTML = status.online ? 'up' : 'down';
+        // уберите комментарий если вам нужно отображение статуса document.querySelector('.status').innerHTML = status.online ? 'up' : 'down';
       });
     </script>
     </body>
