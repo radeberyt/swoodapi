@@ -7,7 +7,7 @@ require __DIR__ . '/MinecraftPingException.php';
 
 ///////////// CONFIG /////////////
 $SERVER_URL = null; // Don't set it if you dont have a server url
-$SERVER_IP 	= 'play.lastcraft.com';
+$SERVER_IP 	= '95.214.8.98';
 $PORT 			= '25565';
 try
 {
